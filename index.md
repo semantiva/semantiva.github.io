@@ -1,6 +1,8 @@
-layout: page
+---
+layout: default
 title: "Semantiva"
 permalink: /
+---
 
 ## Getting Started with Semantiva
 

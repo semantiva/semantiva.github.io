@@ -1,0 +1,10 @@
+title: Semantiva framework webpage
+remote_theme: pages-themes/dinky@v0.2.0
+plugins:
+- jekyll-remote-theme
+theme: jekyll-theme-dinky
+description: HPC-ready, domain-driven, and semantically transparent data & algorithmic architecture for advanced scientific computing.
+baseurl: "/"
+url: "semantiva.github.io"
+domain: semantiva.github.io    
+github_username:  semantiva
