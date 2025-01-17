@@ -1,3 +1,3 @@
 layout: page
-title: About Semantiva
+title: "About Semantiva"
 permalink: /about
