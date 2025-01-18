@@ -23,9 +23,10 @@ nav:
     url: /2.4.Pipelines/
   - title: "3. Domain specialization"
     url: /2.Architecture/
-    - title: "  3.1 Data types and operations"
-      url: /3.1.DataTypesAndOperations/
-    - title: "  3.2 Operation types"
-      url: /3.2.OperationTypes/
+    children:
+      - title: "  3.1 Data types and operations"
+        url: /3.1.DataTypesAndOperations/
+      - title: "  3.2 Operation types"
+        url: /3.2.OperationTypes/
   - title: "About Semantiva"
     url: /about/
