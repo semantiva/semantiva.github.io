@@ -290,6 +290,7 @@ header ul {
   header li ul {
     margin-top: 8px; /* Adds space between parent and first child */
     margin-left: 6px; /* Indents child items */
+    margin-bottom: 0;
     padding-left: 0;
     display: block; 
     position: static
