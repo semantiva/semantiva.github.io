@@ -233,7 +233,6 @@ header {
 	margin: 30px 25px 0 0;
 	-webkit-font-smoothing: antialiased;
     transition: all 300ms ease-out; /* Smooth transition */
-
 }
 
 p.header {
@@ -301,7 +300,8 @@ header ul {
     opacity: 0; /* Hide visually */
     visibility: hidden; /* Prevent focusable elements from being accessible */
     position: absolute;
-    height: 0; /* Initially collapsed */
+    height: auto;
+    max-height: 0;     /* Initially collapsed */
     transition: all 300ms ease-out; /* Smooth transition */
   }
   
@@ -311,7 +311,7 @@ header li:hover > ul {
     position: relative;
     opacity: 1; /* Makes visible */
     visibility: visible; /* Allows interaction */
-    height: auto; /* Large enough to accommodate any number of children */
+    max-height: 500;  /* Large enough to accommodate any number of children */
     margin-top: 5px; /* Adjust spacing when expanded */
   }
   
