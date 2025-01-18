@@ -296,7 +296,7 @@ header ul {
     padding-left: 0;
     display: none; 
     position: absolute;
-    max-height: 0; /* Initially collapsed */
+    height: 0; /* Initially collapsed */
     transition: all 300ms ease-out; /* Smooth transition */
   }
   
@@ -304,7 +304,7 @@ header ul {
 header li:hover > ul {
     display: block;
     position: relative;
-    max-height: 500px; /* Large enough to accommodate any number of children */
+    height: auto; /* Large enough to accommodate any number of children */
     margin-top: 5px; /* Adjust spacing when expanded */
   }
   
