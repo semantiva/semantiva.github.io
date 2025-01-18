@@ -317,7 +317,7 @@ header li:hover > ul {
   
   header li ul li {
     width: 125px;
-    padding: 8px 8px;
+    padding: 8px 135px;
     margin-bottom: 6px; /* Ensures spacing between submenu items */
     
     background: -moz-linear-gradient(top, #960011 0%, #80000f 100%);
@@ -380,7 +380,6 @@ footer {
   width:auto;
   float:left;
   position:static;
-  padding-left: 50px;
 }
 
 @media print, screen and (max-width: 960px) {
