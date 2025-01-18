@@ -269,7 +269,7 @@ header ul {
   header li {
     display: flex;
     width: 145px;
-    height: 30px;
+    height: auto;
     flex-direction: column;
     margin-bottom: 4px; /* Adds spacing between main items */
     line-height: 1em; /* Adjust line height for better readability */
