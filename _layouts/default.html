@@ -19,6 +19,30 @@
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 
+        <!-- Navigation Menu -->
+        <nav class="site-nav">
+          <ul>
+            {% for item in site.nav %}
+              <li>
+                {% if item.url %}
+                  <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                {% else %}
+                  <span>{{ item.title }}</span>
+                {% endif %}
+        
+                {% if item.children %}
+                  <ul>
+                    {% for child in item.children %}
+                      <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
+        <!-- End of Navigation Menu -->
+
         <ul>
           {% if site.show_downloads %}
             <li class="download"><a class="buttons" href="{{ site.github.zip_url }}">Download ZIP</a></li>
@@ -37,15 +61,6 @@
           </ul>
         {% endif %}
 
-        <!-- Navigation Menu -->
-        <nav class="site-nav">
-          <ul>
-            {% for item in site.nav %}
-              <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </nav>
-        <!-- End of Navigation Menu -->
 
       </header>
 
