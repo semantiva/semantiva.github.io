@@ -295,13 +295,16 @@ header ul {
     margin-bottom: 0;
     padding-left: 0;
     display: none; 
-    position: absolute
+    position: absolute;
+    max-height: 0; /* Initially collapsed */
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
   }
   
   /* Show children when hovering over parent */
 header li:hover > ul {
     display: block;
     position: relative;
+    max-height: 500px; /* Large enough to accommodate any number of children */
     margin-top: 5px; /* Adjust spacing when expanded */
   }
   
