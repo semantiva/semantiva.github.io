@@ -267,9 +267,10 @@ header ul {
   }
   
   header li {
-    display: block;
+    display: flex;
     width: 145px;
-    height: auto;
+    height: 30px;
+    flex-direction: column;
     margin-bottom: 4px; /* Adds spacing between main items */
     line-height: 1em; /* Adjust line height for better readability */
     padding: 10px 8px; /* Adjust padding for proper button spacing */
@@ -292,10 +293,16 @@ header ul {
     margin-left: 6px; /* Indents child items */
     margin-bottom: 0;
     padding-left: 0;
-    display: block; 
-    position: static
+    display: none; 
+    position: absolute
   }
   
+  /* Show children when hovering over parent */
+header li:hover > ul {
+    display: block;
+    position: relative;
+    margin-top: 5px; /* Adjust spacing when expanded */
+  }
   
   header li ul li {
     width: 125px;
