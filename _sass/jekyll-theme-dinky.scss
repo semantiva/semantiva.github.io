@@ -232,6 +232,8 @@ header {
 	padding: 34px 25px 22px 50px;
 	margin: 30px 25px 0 0;
 	-webkit-font-smoothing: antialiased;
+    transition: all 300ms ease-out; /* Smooth transition */
+
 }
 
 p.header {
@@ -264,6 +266,7 @@ a.name {
 header ul {
     list-style: none;
     padding: 0;
+    transition: all 300ms ease-out; /* Smooth transition */
   }
   
   header li {
@@ -295,6 +298,8 @@ header ul {
     margin-bottom: 0;
     padding-left: 0;
     display: none; 
+    opacity: 0; /* Hide visually */
+    visibility: hidden; /* Prevent focusable elements from being accessible */
     position: absolute;
     height: 0; /* Initially collapsed */
     transition: all 300ms ease-out; /* Smooth transition */
@@ -304,6 +309,8 @@ header ul {
 header li:hover > ul {
     display: block;
     position: relative;
+    opacity: 1; /* Makes visible */
+    visibility: visible; /* Allows interaction */
     height: auto; /* Large enough to accommodate any number of children */
     margin-top: 5px; /* Adjust spacing when expanded */
   }
