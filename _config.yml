@@ -3,15 +3,17 @@ remote_theme: pages-themes/dinky@v0.2.0
 plugins:
 - jekyll-remote-theme
 theme: jekyll-theme-dinky
-description: >- # this means to ignore newlines until "baseurl:"
-<p>
-  <a href="{{site.baseurl}}/">Home</a> |
-  <a href="{{site.baseurl}}/1.introduction/">1. Introduction</a> | 
-  <a href="{{site.baseurl}}/2.architecture/">. Framework architecture</a> | 
-  <a href="{{site.baseurl}}/about/">About</a> | 
-</p>
-HPC-ready, domain-driven, and semantically transparent data & algorithmic architecture for advanced scientific computing.
+description: HPC-ready, domain-driven, and semantically transparent data & algorithmic architecture for advanced scientific computing.
 baseurl: "/"
 url: "semantiva.github.io"
 domain: semantiva.github.io    
 github_username:  semantiva
+nav:
+  - title: Home
+    url: /
+  - title: 1. Introduction
+    url: /1.Introduction/
+  - title: 2. Architecture
+    url: /2.Architecture/
+  - title: About Semantiva
+    url: /about/
