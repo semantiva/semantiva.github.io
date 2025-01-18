@@ -297,7 +297,7 @@ header ul {
     margin-left: 6px; /* Indents child items */
     margin-bottom: 0;
     padding-left: 0;
-    display: none; 
+    display: block; 
     opacity: 0; /* Hide visually */
     visibility: hidden; /* Prevent focusable elements from being accessible */
     position: absolute;
