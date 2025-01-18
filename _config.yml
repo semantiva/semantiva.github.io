@@ -13,16 +13,17 @@ nav:
     url: /1.Introduction/
   - title: "2. Architecture"
     url: /2.Architecture/
-  - title: "  2.1 Data types"
-    url: /2.1.DataTypes/
-  - title: "  2.2 Operation types"
-    url: /2.2.OperationTypes/
-  - title: "  2.3 Context"
-    url: /2.3.Context Operations/
-  - title: "  2.4 Pipelines"
-    url: /2.4.Pipelines/
+    children:
+      - title: "2.1 Data types"
+        url: /2.1.DataTypes/
+      - title: "2.2 Operation types"
+        url: /2.2.OperationTypes/
+      - title: "2.3 Context"
+        url: /2.3.Context Operations/
+      - title: "2.4 Pipelines"
+        url: /2.4.Pipelines/
   - title: "3. Domain specialization"
-    url: /2.Architecture/
+    url: /3.Specializations/
     children:
       - title: "  3.1 Data types and operations"
         url: /3.1.DataTypesAndOperations/
