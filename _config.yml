@@ -3,7 +3,7 @@ remote_theme: pages-themes/dinky@v0.2.0
 plugins:
   - jekyll-remote-theme
 theme: jekyll-theme-dinky 
-description: HPC-ready, domain-driven, and semantically transparent data & algorithms architecture for advanced scientific computing.
+description: An HPC-ready, domain-driven, type-oriented framework that delivers semantic transparency to advanced scientific computing.
 baseurl: "/"
 
 nav:
@@ -11,23 +11,3 @@ nav:
     url: /
   - title: "1. Introduction"
     url: /1.Introduction/
-  - title: "2. Architecture"
-    url: /2.Architecture/
-    children:
-      - title: "2.1 Data types"
-        url: /2.1.DataTypes/
-      - title: "2.2 Operation types"
-        url: /2.2.OperationTypes/
-      - title: "2.3 Context"
-        url: /2.3.Context Operations/
-      - title: "2.4 Pipelines"
-        url: /2.4.Pipelines/
-  - title: "3. Domain specialization"
-    url: /3.Specializations/
-    children:
-      - title: "  3.1 Data types and operations"
-        url: /3.1.DataTypesAndOperations/
-      - title: "  3.2 Operation types"
-        url: /3.2.OperationTypes/
-  - title: "About Semantiva"
-    url: /about/

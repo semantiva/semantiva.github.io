@@ -4,6 +4,19 @@ title: "Semantiva"
 permalink: /
 ---
 
+# Welcome to Semantica
+
+**Semantica** is an open-source framework that brings **Domain-Driven Design**, **Type-Oriented Development**, and **semantic transparency** together under one roof. By pairing each data type with matching algorithm definitions—and embedding domain concepts at every stage—Semantica streamlines complex data pipelines into clear, scalable, and easily maintainable workflows.
+
+**Why Semantica?**  
+- **Aligned with Real-World Needs**: Design your data structures and operations around actual domain entities, eliminating confusion and wasted effort.  
+- **Type-Safe Workflows**: Prevent costly errors and ambiguities by ensuring each algorithm processes exactly the data it was built for.  
+- **Semantic Transparency**: Make every transformation explainable, so that team members and stakeholders can trust your results, from quick prototypes to HPC-scale deployments.  
+- **Future-Proof**: Scale seamlessly by adding new data types, integrating cloud or cluster resources, and leveraging modular pipelines that adapt to evolving requirements.
+
+Explore our [Documentation](/1.Introduction/) to see how Semantica redefines data processing—connecting scientists, engineers, and software developers through a shared, semantically rich approach. Wherever clarity and reliability matter, Semantica is here to help you build solutions that stand the test of time.
+
+
 ## Getting Started with Semantiva
 
 This short guide helps you **jump right in** with a minimal example showcasing **Semantiva’s** modular design. We’ll create and process a simple **string literal** rather than dealing with more complex domains like audio or images.
@@ -108,24 +121,3 @@ if __name__ == "__main__":
     # 4. Print final result
     print("Pipeline completed. Final output:", output_data.data)
 ```
-
----
-
-## Summary
-
-In these five simple steps, you’ve:
-
-1. **Created** a custom data type for strings (`StringLiteralDataType`).
-2. **Leveraged** the built-in `AlgorithmTopologyFactory` to generate a `StringLiteralAlgorithm`.
-3. **Extended** that generic algorithm to define a specific operation (`HelloOperation`).
-4. **Built** a **node configuration** referencing `HelloOperation`.
-5. **Instantiated** a minimal pipeline and **executed** it, confirming everything works.
-
-This approach shows how easy it is to **scale** from a “Hello World” scenario to more complex data transformations—just define new data types, create operations through the **factory**, and configure the pipeline. Once comfortable, you can **explore** domain-specific modules (audio, image, text, etc.) and advanced features like context observers or parallel execution.
-
-
----
-
-## Acknowledgments
-
-Semantiva is inspired by the need for transparency and traceability in data-driven systems of the ALICE O2 computing system. It incorporates principles of ontology-driven design to ensure robust and interpretable workflows.
