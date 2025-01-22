@@ -4,17 +4,17 @@ title: "Semantiva"
 permalink: /
 ---
 
-# Welcome to Semantica
+# Welcome to Semantiva
 
-**Semantica** is an open-source framework that brings **Domain-Driven Design**, **Type-Oriented Development**, and **semantic transparency** together under one roof. By pairing each data type with matching algorithm definitions—and embedding domain concepts at every stage—Semantica streamlines complex data pipelines into clear, scalable, and easily maintainable workflows.
+**Semantiva** is an open-source framework that brings **Domain-Driven Design**, **Type-Oriented Development**, and **semantic transparency** together under one roof. By pairing each data type with matching algorithm definitions—and embedding domain concepts at every stage—Semantiva streamlines complex data pipelines into clear, scalable, and easily maintainable workflows.
 
-**Why Semantica?**  
+**Why Semantiva?**  
 - **Aligned with Real-World Needs**: Design your data structures and operations around actual domain entities, eliminating confusion and wasted effort.  
 - **Type-Safe Workflows**: Prevent costly errors and ambiguities by ensuring each algorithm processes exactly the data it was built for.  
 - **Semantic Transparency**: Make every transformation explainable, so that team members and stakeholders can trust your results, from quick prototypes to HPC-scale deployments.  
 - **Future-Proof**: Scale seamlessly by adding new data types, integrating cloud or cluster resources, and leveraging modular pipelines that adapt to evolving requirements.
 
-Explore our [Documentation](/1.Introduction/) to see how Semantica redefines data processing—connecting scientists, engineers, and software developers through a shared, semantically rich approach. Wherever clarity and reliability matter, Semantica is here to help you build solutions that stand the test of time.
+Explore our [Documentation](/1.Introduction/) to see how Semantiva redefines data processing—connecting scientists, engineers, and software developers through a shared, semantically rich approach. Wherever clarity and reliability matter, Semantiva is here to help you build solutions that stand the test of time.
 
 
 ## Getting Started with Semantiva
@@ -99,6 +99,7 @@ node_configurations = [
     {
         "operation": HelloOperation,
         "parameters": {},  # No extra parameters needed
+        "context_operation": ContextPassthrough,
     },
 ]
 
